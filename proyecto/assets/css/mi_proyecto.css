@@ -1,0 +1,65 @@
+
+/*PAGINA DE NOSOTROS*/
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: 3fr repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.texto-nosotros blockquote {
+font-weight: 900;
+font-size: 5rem;
+margin: 0;
+padding: 1rem 0 3rem 0;
+}
+
+.iconos-nosotros{
+    background-color: darkgrey;
+    display: flex;
+}
+
+/*PAGINA DE CONTACTO*/
+/** Contacto **/
+.contacto p {
+    font-size: 4rem;
+    color: #4f4f4f;
+    margin: 2rem 0 0 0;
+}
+legend {
+    font-size: 2rem;
+    color: #4f4f4f;
+}
+label {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    width: 96%;
+    background-color: cornflowerblue;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+textarea {
+    height: 20rem;
+}
+.forma-contacto {
+    max-width:30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
